@@ -1,6 +1,31 @@
-# Registro Detalhe - Segmento R (Obrigatório - Remessa)
-# Baseado na documentação da caixa
-uso_exclusivo_febraban_02:
-  pos: [18, 65]
-  picture: '9(48)'
+codigo_desconto2:
+  pos: [18, 18]
+  picture: '9(1)'
+  default: '0'
+
+data_desconto2:
+  pos: [19, 26]
+  picture: '9(8)'
+  date_format: '%d%m%Y'
+  default: '0'
+
+valor_desconto2:
+  pos: [27, 41]
+  picture: '9(13)V9(2)'
+  default: '0'
+
+codigo_desconto3:
+  pos: [42, 42]
+  picture: '9(1)'
+  default: '0'
+
+data_desconto3:
+  pos: [43, 50]
+  picture: '9(8)'
+  date_format: '%d%m%Y'
+  default: '0'
+
+valor_desconto3:
+  pos: [51, 65]
+  picture: '9(13)V9(2)'
   default: '0'
